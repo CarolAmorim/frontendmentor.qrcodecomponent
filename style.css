@@ -1,0 +1,63 @@
+:root {
+  --c1: hsl(0, 0%, 100%);
+  --c2: hsl(212, 45%, 89%);
+  --c3: hsl(220, 15%, 55%);
+  --c4: hsl(218, 44%, 22%);
+
+  font-family: "Outfit", Helvetica, sans-serif;
+
+  --size: 15px;
+}
+
+/* reset */
+body,
+main,
+div,
+h1,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+/* Style */
+
+body {
+  background-color: var(--c2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  box-sizing: border-box;
+}
+
+main {
+  background-color: var(--c1);
+  width: 300px;
+  padding: 1rem;
+  border-radius: 20px;
+  text-align: center;
+}
+
+main img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.info {
+  margin: 20px;
+}
+
+.info h1 {
+  font-size: 1.4rem;
+  color: var(--c4);
+  margin-bottom: 1.3rem;
+  font-weight: 700;
+}
+
+.info p {
+  font-size: var(--size);
+  color: var(--c3);
+  font-weight: 400;
+}
