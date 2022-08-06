@@ -45,18 +45,19 @@ main img {
   border-radius: 10px;
 }
 
-.info {
+h1,
+p {
   margin: 20px;
 }
 
-.info h1 {
+h1 {
   font-size: 1.4rem;
   color: var(--c4);
   margin-bottom: 1.3rem;
   font-weight: 700;
 }
 
-.info p {
+p {
   font-size: var(--size);
   color: var(--c3);
   font-weight: 400;
